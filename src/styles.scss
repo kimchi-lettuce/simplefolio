@@ -16,3 +16,36 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+.relative {
+    position: relative;
+}
+
+.building-block {
+    position: absolute;
+    right: 120px;
+    bottom: 60px;
+
+    background-color: #FFF6CC;
+    border-width: 2px;
+    border-color: #FFD600;
+
+    padding: 20px;
+
+    max-width: 500px;
+
+    border-radius: 20px;
+}
+
+.warning-title {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
